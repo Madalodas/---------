@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>主页</title>
+</head>
+<meta charset="utf-8">
+<link href="css/bootstrap.css"  rel="stylesheet" media="all">
+<link href="css/style.css"  rel="stylesheet" media="all"> 
+<link rel="stylesheet" href="css/flexslider.css" media="all" property="" /> <!-- 版块事件 --> 
+<script src="js/jquery-1.11.1.min.js"></script><!-- 滑动事件 --> 
+	
+<body>
+	
+	<div class="banner">
+		<div class="header">
+			<div class="container">
+				<div class="menu">
+					<a href="#" class="navicon"></a> 
+					<div class="toggle">
+						<h1>一只猫</h1>
+						<ul class="toggle-menu">
+							<li><a href="主页.html" class="active"> 主页</a></li>
+							<li><a href="关于.html"> 关于</a></li>
+							<li><a href="信息.html"> 信息</a></li>
+						    <li><a href="图片.html"> 图片</a></li>
+							<li><a href="表单.html"> 表单</a></li>
+						</ul>
+					</div> 
+				</div> 
+				<div class="social-icons">
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		
+		<div class="banner-text"> 
+			<div class="container">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<div class="banner-w3lstext">
+								<h2>一只猫</h2>
+								<p>在下是猫，无名无姓 </p>
+							</div>
+						</li>
+						<li>
+							<div class="banner-w3lstext">
+								<h3>百草园</h3>
+								<p>记录，点点滴滴的生活</p>
+							</div>
+						</li>
+						<li>
+							<div class="banner-w3lstext">
+								<h3>杂物庵</h3>
+								<p>每一个片段都是一段故事</p>
+							</div>
+						</li>
+					</ul> 
+				</div>
+				<script defer src="js/jquery.flexslider.js"> </script>
+				<script type="text/javascript">
+					$(window).load(function(){
+					  $('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						  $('body').removeClass('loading');
+						}
+					  });
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+	
+	<div id="features" class="features">
+		<div class="container">
+			<div class="title">
+				<h3>一只</h3>
+				<p>&nbsp;</p>
+			</div>
+			<div class="features-w3l">
+				<div class="col-md-4 features-grids">
+					<h4>1</h4>
+					<p>人，无论是变得狡猾，还是变得卑鄙，见识多是年老的罪过</p> 
+			    </div>
+				<div class="col-md-4 features-grids features-grd-mdl1">
+					<h4>2</h4>
+					<p>披上表里不一的伪装，无不是见多识广的恶果</p> 
+				</div>
+				<div class="col-md-4 features-grids">
+					<h4>3</h4>
+					<p>世界将如何变化，我不了解.水缸中的猫的瞳孔，应该可以凝结成瞬间的永恒</p>
+				</div>
+				<div class="col-md-4 features-grids">
+					<h4>4</h4>
+					<p>我字无处不缠身，弄得举止言行，无不矫揉造作，作茧自缚</p> 
+				</div>
+				<div class="col-md-4 features-grids features-grd-mdl2">
+					<h4>5</h4>
+					<p>再也没有比承认自己愚蠢更加高尚的了</p>
+				</div>
+				<div class="col-md-4 features-grids">
+					<h4>6</h4>
+					<p>似乎又很无聊之类的话，净是些言过其实、云山雾罩的香词艳语</p> 
+				</div>
+				<div class="clerfix"> </div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="video">
+		<div class="container"> 
+			<div class="col-md-6 video-left">
+				<h4>一次远行</h4> 
+				<p>来了又去了，这些人，匍匐在城市微弱的星光里，浅浅地沉下，涟漪中，又浮起，无声的瞬间，一转头就看不见了。
+                </p>
+				<p>落日的余晖洒在我俩的脸上，我想起海子的一句诗“花都开了，云特别白，把紫色的影子，全部献给黄昏的大海”，我转头看看她，又专心致志地看着天不知道想些什么。	</p>
+				<div class="more">
+					<a href="single.html" class="button-pipaluk button--inverted" data-toggle="modal" data-target="#myModal"> Read More</a>
+				</div>
+			</div> 
+			<div class="col-md-6 video-right"> 
+				<iframe src="video/room.mp4"></iframe>
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal bnr-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<div class="modal-body modal-spa">
+					<p> 或许正是因为炎热，也因为夏天，人才可以如此坦荡地面对自我。</p><p>人们习惯了文明，习惯把真实藏在冷静的面孔下，只有炎热才能让真实冒出头来。</p><p>我觉得这一切都很好，在夏天，人不应该有烦恼。于是我尽力让自己安静下来，坐在书桌前，整理好行囊。</p><p>我只是坐在这里，这间房间，这座城市，这个季节，做生命的旅行者，在时间里经历不同的季节，并不打算去任何远方。</p><p>&nbsp;</p>
+				</div> 
+			</div>
+		</div>
+	</div>	
+	
+	<div class="footer">
+		<div class="container">
+			<div class="footer-grids">
+				<div class="col-md-3 footer-grid">
+					<h3>信息</h3>
+					<ul>
+					<li><a>一只</a></li>
+					<li><a>生活</a></li>
+					<li><a>语录</a></li>	
+					</ul>
+				</div>
+				<div class="col-md-3 footer-grid">
+					<h3>概要</h3>
+					<ul>
+						<li><a>在下是猫</a></li>
+						<li><a>无名无性</a></li>
+						<li><a>没得感情</a></li>	
+					</ul>
+				</div>
+				<div class="col-md-3 footer-grid footer-tags">
+					<h3>标签</h3>
+					<ul>
+						<li><a href="主页.html">主页</a></li>
+						<li><a href="关于.html">关于</a></li>
+						<li><a href="信息.html">信息</a></li>
+						<li><a href="图片.html">图片</a></li>
+						<li><a href="表单.html">表单</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-grid footer-review">
+					<h3>索引</h3>
+					<p>&nbsp;</p> 
+					<form>
+						<input type="search" placeholder=" " autocomplete="off">
+					</form>	
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="copy-right"> 
+				<p>黄淮学院、国际教育学院、计算机一八级一班 王斌斌</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="clearfix"> </div> 
+    <script>
+		$('.navicon').on('click', function (e) {
+		  e.preventDefault();
+		  $(this).toggleClass('navicon--active');
+		  $('.toggle').toggleClass('toggle--active');
+		});
+    </script> <!-- 列表 -->
+	<script src="js/bootstrap.js"></script>
+	
+</body>
+</html>
